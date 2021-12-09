@@ -42,8 +42,8 @@ void func3_opencv_circle(Size board_size) {
 
 void func4_opencv_circle_iterative(Size board_size) {
 	opencv_circle_iterative res;
-	res.set_mat(board_size);
-	res.iterative(5);
+	res.set_mat(board_size, "C:\\Users\\22286\\Desktop\\cli");
+	res.iterative(2);
 }
 
 int main() {
@@ -51,7 +51,7 @@ int main() {
 	//ofstream fout("calibration_result.txt");
 
 	Size image_size;
-	Size board_size = Size(9, 6);    /* 标定板上每行、列的角点数 */
+	Size board_size = Size(7, 7);    /* 标定板上每行、列的角点数 */
 	//vector<Point2f> image_points_buf;  /* 缓存每幅图像上检测到的角点 */
 	//vector<vector<Point2f>> image_points_seq; /* 保存检测到的所有角点 */
 

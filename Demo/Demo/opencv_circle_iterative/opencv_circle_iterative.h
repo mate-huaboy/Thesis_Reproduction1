@@ -15,7 +15,7 @@ using namespace std;
 class opencv_circle_iterative {
 private:
 	Size image_size, board_size;
-	Mat src[30], gray_src[30];
+	Mat src[30], gray_src[30];//最大三十张图片
 	vector<vector <Point2f> > image_points_seq;
 	int src_count = 0;
 	vector <Mat> tvecsMat, rvecsMat;
@@ -33,6 +33,8 @@ public:
 	void unproject();
 	void reproject();
 	vector<Point2f> cornersort(vector<Point2f> tmp, vector<Point2f> res);
+	void unproject_origin();
+	void set_mat(Size bs, string file_name);
 };
 
 #endif // !OPENCV_ITERATIVE_INCLUDED
