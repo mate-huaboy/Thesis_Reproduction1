@@ -1,7 +1,6 @@
-﻿  opencv_circle_iterative.cpp
-F:\MrIsland\Thesis_Reproduction1\Demo\Demo\opencv_circle_iterative\opencv_circle_iterative.cpp(44,29): warning C4305: “=”: 从“double”到“float”截断
-F:\MrIsland\Thesis_Reproduction1\Demo\Demo\opencv_circle_iterative\opencv_circle_iterative.cpp(48,32): warning C4305: “=”: 从“double”到“float”截断
-F:\MrIsland\Thesis_Reproduction1\Demo\Demo\opencv_circle_iterative\opencv_circle_iterative.cpp(94,21): warning C4244: “=”: 从“_Tp”转换到“_Tp”，可能丢失数据
+﻿  main.cpp
+  opencv_circle_iterative.cpp
+D:\研究生\project\Thesis_Reproduction1\Demo\Demo\opencv_circle_iterative\opencv_circle_iterative.cpp(133,21): warning C4244: “=”: 从“_Tp”转换到“_Tp”，可能丢失数据
           with
           [
               _Tp=int
@@ -10,7 +9,7 @@ F:\MrIsland\Thesis_Reproduction1\Demo\Demo\opencv_circle_iterative\opencv_circle
           [
               _Tp=float
           ]
-F:\MrIsland\Thesis_Reproduction1\Demo\Demo\opencv_circle_iterative\opencv_circle_iterative.cpp(95,21): warning C4244: “=”: 从“_Tp”转换到“_Tp”，可能丢失数据
+D:\研究生\project\Thesis_Reproduction1\Demo\Demo\opencv_circle_iterative\opencv_circle_iterative.cpp(134,21): warning C4244: “=”: 从“_Tp”转换到“_Tp”，可能丢失数据
           with
           [
               _Tp=int
@@ -19,29 +18,69 @@ F:\MrIsland\Thesis_Reproduction1\Demo\Demo\opencv_circle_iterative\opencv_circle
           [
               _Tp=float
           ]
-F:\MrIsland\Thesis_Reproduction1\Demo\Demo\opencv_circle_iterative\opencv_circle_iterative.cpp(126,63): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-F:\MrIsland\Thesis_Reproduction1\Demo\Demo\opencv_circle_iterative\opencv_circle_iterative.cpp(127,63): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-F:\MrIsland\Thesis_Reproduction1\Demo\Demo\opencv_circle_iterative\opencv_circle_iterative.cpp(280,47): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+D:\研究生\project\Thesis_Reproduction1\Demo\Demo\opencv_circle_iterative\opencv_circle_iterative.cpp(165,63): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\研究生\project\Thesis_Reproduction1\Demo\Demo\opencv_circle_iterative\opencv_circle_iterative.cpp(166,63): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\研究生\project\Thesis_Reproduction1\Demo\Demo\opencv_circle_iterative\opencv_circle_iterative.cpp(329,47): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
           with
           [
               _Tp=float
           ]
-F:\MrIsland\Thesis_Reproduction1\Demo\Demo\opencv_circle_iterative\opencv_circle_iterative.cpp(281,50): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+D:\研究生\project\Thesis_Reproduction1\Demo\Demo\opencv_circle_iterative\opencv_circle_iterative.cpp(330,50): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
           with
           [
               _Tp=float
           ]
-F:\MrIsland\Thesis_Reproduction1\Demo\Demo\opencv_circle_iterative\opencv_circle_iterative.cpp(282,66): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+D:\研究生\project\Thesis_Reproduction1\Demo\Demo\opencv_circle_iterative\opencv_circle_iterative.cpp(331,66): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
           with
           [
               _Tp=float
           ]
-F:\MrIsland\Thesis_Reproduction1\Demo\Demo\opencv_circle_iterative\opencv_circle_iterative.cpp(282,47): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+D:\研究生\project\Thesis_Reproduction1\Demo\Demo\opencv_circle_iterative\opencv_circle_iterative.cpp(331,47): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
           with
           [
               _Tp=float
           ]
-F:\MrIsland\Thesis_Reproduction1\Demo\Demo\opencv_circle_iterative\opencv_circle_iterative.cpp(311,101): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+D:\研究生\project\Thesis_Reproduction1\Demo\Demo\opencv_circle_iterative\opencv_circle_iterative.cpp(448,76): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\研究生\project\Thesis_Reproduction1\Demo\Demo\opencv_circle_iterative\opencv_circle_iterative.cpp(448,53): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\研究生\project\Thesis_Reproduction1\Demo\Demo\opencv_circle_iterative\opencv_circle_iterative.cpp(449,76): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\研究生\project\Thesis_Reproduction1\Demo\Demo\opencv_circle_iterative\opencv_circle_iterative.cpp(449,54): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\研究生\project\Thesis_Reproduction1\Demo\Demo\opencv_circle_iterative\opencv_circle_iterative.cpp(450,77): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\研究生\project\Thesis_Reproduction1\Demo\Demo\opencv_circle_iterative\opencv_circle_iterative.cpp(450,53): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\研究生\project\Thesis_Reproduction1\Demo\Demo\opencv_circle_iterative\opencv_circle_iterative.cpp(451,77): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\研究生\project\Thesis_Reproduction1\Demo\Demo\opencv_circle_iterative\opencv_circle_iterative.cpp(451,54): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\研究生\project\Thesis_Reproduction1\Demo\Demo\opencv_circle_iterative\opencv_circle_iterative.cpp(482,101): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
           with
           [
               _Tp=double
@@ -50,7 +89,7 @@ F:\MrIsland\Thesis_Reproduction1\Demo\Demo\opencv_circle_iterative\opencv_circle
           [
               _Tp=float
           ]
-F:\MrIsland\Thesis_Reproduction1\Demo\Demo\opencv_circle_iterative\opencv_circle_iterative.cpp(311,60): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
+D:\研究生\project\Thesis_Reproduction1\Demo\Demo\opencv_circle_iterative\opencv_circle_iterative.cpp(482,60): warning C4244: “参数”: 从“_Tp”转换到“_Tp”，可能丢失数据
           with
           [
               _Tp=double
@@ -59,9 +98,10 @@ F:\MrIsland\Thesis_Reproduction1\Demo\Demo\opencv_circle_iterative\opencv_circle
           [
               _Tp=float
           ]
-F:\MrIsland\Thesis_Reproduction1\Demo\Demo\opencv_circle_iterative\opencv_circle_iterative.cpp(330,12): warning C4244: “初始化”: 从“_Tp”转换到“int”，可能丢失数据
+D:\研究生\project\Thesis_Reproduction1\Demo\Demo\opencv_circle_iterative\opencv_circle_iterative.cpp(501,12): warning C4244: “初始化”: 从“_Tp”转换到“int”，可能丢失数据
           with
           [
               _Tp=float
           ]
-  Demo.vcxproj -> F:\MrIsland\Thesis_Reproduction1\Demo\x64\Debug\Demo.exe
+  正在生成代码...
+  Demo.vcxproj -> D:\研究生\project\Thesis_Reproduction1\Demo\x64\Debug\Demo.exe

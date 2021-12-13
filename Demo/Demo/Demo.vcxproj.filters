@@ -30,6 +30,9 @@
     <ClCompile Include="opencv_circle_iterative\opencv_circle_iterative.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="opencv_circle_iterative\read_file.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="opencv1\opencv1.h">
@@ -42,6 +45,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="opencv_circle_iterative\opencv_circle_iterative.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="opencv_circle_iterative\read_file.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

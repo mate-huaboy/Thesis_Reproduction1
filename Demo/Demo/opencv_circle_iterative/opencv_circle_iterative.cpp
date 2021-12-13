@@ -1,5 +1,22 @@
 #include "opencv_circle_iterative.h"
 #include"read_file.h"
+
+
+
+//写标定文件
+bool opencv_circle_iterative:: writeCalibFile(SingleCalData data,string foldername ) {
+	FileStorage fs(foldername + "\\" + "calibret.yaml", FileStorage::WRITE);
+	if (!fs.isOpened()) {
+		cout << "failed to save result of calibration" << endl;
+		return false;
+	}
+	fs << "_cameraMatrix" << data._cameraMatrix;
+	fs << "_distortMatrix" << data._distortMatrix;
+	fs << "_imageSize" << data._imageSize;
+	fs.release();
+	return true;
+}
+
 void opencv_circle_iterative::set_mat(Size bs,string file_name) {
 	this->src_count = 0;
 	this->board_size = bs;
@@ -104,7 +121,7 @@ void opencv_circle_iterative::_FindCorner(bool flag = true) {
 }
 
 void opencv_circle_iterative::calibration() {
-	Size square_size = Size(7, 7);//中心距
+	Size square_size = Size(6, 6);//中心距
 	vector <vector <Point3f> >object_points;
 	vector <int> point_counts;
 	//for (int t = 1; t <= this->src_count; t++) {//当有图片检测不出时这里有bug
@@ -200,6 +217,13 @@ void opencv_circle_iterative::iterative(int num) {
 		reproject();//角点重投影回原始视图
 		calibration();//标定
 	}
+
+	//保存标定结果
+	SingleCalData data;
+	data._cameraMatrix = this->cameraMatrix;
+	data._distortMatrix = this->distCoeffs;
+
+	writeCalibFile(data, "./result_data");
 }
 
 
